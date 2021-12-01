@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> jo jo GYM FITNESS</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" >
+<link rel="stylesheet" href="styles.css">
+<style>
+	/*CSS Reset*/
+	body{
+		font-family: 'Baloo Bhaina 2', cursive;
+		margin: 0px;
+		padding: 0px;
+		background-image: url('gym.jpg');
+		color: whitesmoke;
+	}
+	.left{
+		display: inline-block;
+border: 10px blueviolet;
+position: absolute;
+left:30px;
+top: 10px;
+
+	}
+	.left img{
+		width: 60px;
+		filter: invert(80%);
+	}
+	.left div{
+		line-height: 15spx;
+		font-size: 18px;
+		text-align: center;
+	}
+	.mid{
+		display: block;
+		width: 45%;
+		margin: 5px auto;
+		padding: 6px 10px;
+
+
+	}
+	.right{
+		position: absolute;
+		display: inline-block;
+border: 12px yellow;
+right: 24px;
+top: 20px;
+
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li {
+		color: whitesmoke;
+		display: inline-block;
+		font-size: 25px;
+
+	}
+	.navbar li a{
+         color: whitesmoke;
+         text-decoration: none;
+         padding: 54px,63px;
+         margin: 5px 15px;
+	}
+	.navbar li a:hover, .navbarli a.active{
+		text-decoration: underline;
+	}
+	.btn{
+		font-family: 'Baloo Bhaina 2', cursive;
+		margin: 0px 4px;
+		color: whitesmoke;
+		background-color: black;
+		padding: 2px 10px;
+		border: 1px solid grey;
+		border-radius: 5px;
+		font-size: 20px;
+		cursor: pointer;
+
+	}
+	.btn:hover{
+		background-color: green;
+	}
+	.container{
+		border: 2px solid white;
+		margin: 106px 480px;
+		padding: 65px;
+		width: 20%;
+		border-radius: 20px;
+
+
+	}
+	.form-group input{
+		font-size: 12px;
+		margin: 9px auto;
+		text-align: center;
+		display: block;
+		width: 304px;
+		padding: 6px;
+		border: 10px;
+		border-radius: 5px;
+		font-family: 'Baloo Bhaina 2', cursive;
+	}
+	.container h1{
+		text-align: center;
+	}
+
+	.container button{
+		display: block ;
+		width: 35%;
+		margin: 14px auto;
+	}
+</style>
+<body>
+<header class="header">
+	<!--left box for logo -->
+	<div class="left">
+		<img src="logo.png" alt="">
+		<div style="text-align: center;">jo jo finess </div>
+	</div>
+	<!--mid box for navbar-->
+	<div class="mid">
+		<ul class="navbar">
+			<li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Timing</a></li>
+		    <li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+	<!--right box for button-->
+	<div class="right">
+		<button class="btn">Call Us</button>
+		<button class="btn">email Us</button>
+	</div>
+</header>
+<div class="container"> 
+<h1>Fill To Join Us</h1>
+<form action="noaction.php">
+	<div class="form-group">
+		<input type="text" name="" placeholder="Enter Your Name">
+	</div>
+	<div class="form-group">
+		<input type="text" name="" placeholder="Enter Your Age">
+	</div>
+	<div class="form-group">
+		<input type="text" name="" placeholder="Enter Your Gender">
+	</div>
+	<div class="form-group">
+		<input type="text" name="" placeholder="Enter Your Locality">
+	</div>
+	<div class="form-group">
+		<input type="text" name="" placeholder="Enter Your Phone Number">
+	</div>
+	<div class="form-group">
+		<input type="text" name="" placeholder="Enter Your email id">
+	</div>
+	<button class="btn">Submit</button>
+</form>
+</div>
+
+
+</div>
+</body>
+</html>
